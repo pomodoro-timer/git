@@ -25,3 +25,9 @@ For practicing git functions
   git fetch
   git push origin ptm
   ```
+  * Look for new branch under https://github.com/pomodoro-timer/git/branches
+  * Create a pull request by clicking on `New pull request`
+  * Status: *This branch has no conflicts with the base branch*
+  * Pull request accepted by *ijklim*
+  * Check main page https://github.com/pomodoro-timer/git, README is updated
+  * Repeat commands from above with a different message
