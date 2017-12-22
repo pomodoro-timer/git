@@ -105,3 +105,15 @@ For practicing git functions
   git commit -m 'Update README after resolving conflicts with master and stash'
   git push origin ijklim
   ```
+
+## How to return to a previous commit
+* *ijklim* accidentally accepted his own pull request
+* Using github revert function creates a few additional request and merge
+* Currrently there are 15 commits in the `master` branch
+* The 12th commit should be the last one
+* Try the following
+```bash
+git reflog
+git reset HEAD@{0}
+```
+* Update this README and commit changes
