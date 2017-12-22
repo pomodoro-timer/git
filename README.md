@@ -33,7 +33,7 @@ For practicing git functions
   * Repeat commands from above with a different message
 
 * ijklim
-  * Accept pull requests from *pomodoro-timer*
+  * Accept pull requests from pomodoro-timer
   * Clone `git` to local machine
   * Create and check out new branch `ijklim`
   ```bash
