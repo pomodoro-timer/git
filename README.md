@@ -52,9 +52,33 @@ For practicing git functions
   * Pull request accepted by *pomodoro-timer*
   * README is updated under the `Code` tab
   * Accept pull request from *pomodoro-timer*
+
+* pomodoro-timer
+  * Accept pull request from *ijklim*
+  * Fetch changes from remote repo
+  ```bash
+  git fetch
+  ```
+  * Still in `ptm` branch, do NOT see changes reflect in README.md
+  * Update files to reflect changes
+  ```bash
+  git merge origin/master
+  ```
+  * Changes from *ijklim* are now shown in README.md
+  * Update README.md
+  * Commit change and upload to github
+  ```bash
+  git add README.md
+  git commit -m 'Update README after fetching changes from ijklim'
+  git fetch
+  git push origin ptm
+  ```
+
+* ijklim
   * Update README.md
   * Commit change and upload to github
   ```bash
   git add README.md
   git commit -m 'Attempt to upload changes without fetch after accepting pull request'
   ```
+  * Some changes have been stashed, but cannot be popped without committing change
