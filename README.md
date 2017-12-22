@@ -33,7 +33,7 @@ For practicing git functions
   * Repeat commands from above with a different message
 
 * ijklim
-  * Accept pull requests from pomodoro-timer
+  * Accept pull requests from *pomodoro-timer*
   * Clone `git` to local machine
   * Create and check out new branch `ijklim`
   ```bash
@@ -47,4 +47,14 @@ For practicing git functions
   git commit -m 'Download repo from another user and record actions taken'
   git fetch
   git push origin ijklim
+  ```
+  * Create a pull request
+  * Pull request accepted by *pomodoro-timer*
+  * README is updated under the `Code` tab
+  * Accept pull request from *pomodoro-timer*
+  * Update README.md
+  * Commit change and upload to github
+  ```bash
+  git add README.md
+  git commit -m 'Attempt to upload changes without fetch after accepting pull request'
   ```
