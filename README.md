@@ -48,3 +48,24 @@ For practicing git functions
   git fetch
   git push origin ijklim
   ```
+
+* pomodoro-timer
+  * Accept pull request from *ijklim*
+  * Fetch changes from remote repo
+  ```bash
+  git fetch
+  ```
+  * Still in `ptm` branch, do NOT see changes reflect in README.md
+  * Update files to reflect changes
+  ```bash
+  git merge origin/master
+  ```
+  * Changes from *ijklim* are now shown in README.md
+  * Update README.md
+  * Commit change and upload to github
+  ```bash
+  git add README.md
+  git commit -m 'Update README after fetching changes from ijklim'
+  git fetch
+  git push origin ptm
+  ```
