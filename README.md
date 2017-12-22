@@ -81,4 +81,27 @@ For practicing git functions
   git add README.md
   git commit -m 'Attempt to upload changes without fetch after accepting pull request'
   ```
-  * Some changes have been stashed, but cannot be popped without committing change
+  * Create a pull request
+  * Status: *This branch has conflicts that must be resolved*
+  * Stash changes to README.md
+  * Merge with origin/master
+  ```bash
+  git stash save
+  git merge origin/master
+  ```
+  * Resolve conflicts
+  * Attempt to pop stash, but unable to proceed without committing change
+  * Commit change
+  * Pop stash and add additional steps
+  ```bash
+  git add README.md
+  git commit -m 'Update README after fetching changes from ijklim'
+  git stash pop stash@{0}
+  ```
+  * Resolve conflicts with stashed changes
+  * Commit and upload
+  ```bash
+  git add README.md
+  git commit -m 'Update README after resolving conflicts with master and stash'
+  git push origin ijklim
+  ```
