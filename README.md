@@ -117,3 +117,11 @@ git reflog
 git reset HEAD@{0}
 ```
 * Update this README and commit changes
+* Download changes from remote branch `origin/master`
+* Merge with local branch
+* Resolve conflict
+* Staged changes and commit
+* Push to remote repo
+* Create pull request
+* Wait for other contributor to accept pull request
+
